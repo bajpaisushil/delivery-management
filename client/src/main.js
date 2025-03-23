@@ -1,8 +1,5 @@
-import { createApp } from 'vue';
-import App from './App.vue';
+import { createApp } from 'vue'
+import './style.css'
+import App from './App.vue'
 
-// Create the Vue app
-const app = createApp(App);
-
-// Mount the app
-app.mount('#app');
+createApp(App).mount('#app')
